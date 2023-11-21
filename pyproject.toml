@@ -3,11 +3,11 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "works"
+name = "fertig"
 authors = [
     {name = "Nathaniel Schaaf", email = "nathaniel.schaaf@gmail.com"}
 ]
-description = "works"
+description = "fertig"
 version = "1.0.0a0"
 
 readme = "README.md"
@@ -26,8 +26,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/schana/works"
-Issues = "https://github.com/schana/works/issues"
+Homepage = "https://github.com/schana/fertig"
+Issues = "https://github.com/schana/fertig/issues"
 
 [project.optional-dependencies]
 dev = [
