@@ -25,6 +25,10 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/schana/works"
+Issues = "https://github.com/schana/works/issues"
+
 [project.optional-dependencies]
 dev = [
     "black",
