@@ -11,14 +11,13 @@ description = "fertig"
 version = "1.0.0a0"
 
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = {text = "Apache Software License"}
 
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Typing :: Typed",
@@ -35,6 +34,12 @@ dev = [
     "isort",
     "tox",
     "pytest",
+]
+
+docs = [
+    "sphinx",
+    "sphinx_rtd_theme",
+    "myst_parser",
 ]
 
 [tool.isort]
