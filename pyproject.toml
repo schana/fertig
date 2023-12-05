@@ -37,6 +37,7 @@ dev = [
 ]
 
 docs = [
+    "tox",
     "sphinx",
     "sphinx_rtd_theme",
     "myst_parser",
